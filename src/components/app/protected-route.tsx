@@ -6,8 +6,7 @@ export default function ProtectedRoute() {
     
     return (
         <>
-        <Outlet/>
-        Hi
+            <Outlet/>
         </>
     )
 }
