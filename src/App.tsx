@@ -3,7 +3,7 @@ import './App.css'
 import { RouterProvider } from 'react-router-dom'
 import Router from '@routes/index'
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -14,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+
