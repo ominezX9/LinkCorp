@@ -1,0 +1,2 @@
+# LinkCorp
+Linkcorp Landing page
