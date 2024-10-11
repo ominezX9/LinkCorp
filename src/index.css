@@ -24,6 +24,9 @@
         --card: 0 0% 100%;
         --card-foreground: 0 0% 3.9%;
 
+        --neutral: 215, 32%, 17%;
+        --neutral-foreground: 0 0% 98%;
+
         --primary: 210 96% 22%;
         --primary-foreground: 0 0% 98%;
 
@@ -110,4 +113,29 @@
         @apply bg-background text-foreground;
         font-feature-settings: "rlig" 1, "calt" 1;
     }
+
+
+    .top-tabs {
+        @apply text-white;
+    }
+    .top-tabs:nth-child(1){
+        @apply bg-neutral;
+    }
+    .top-tabs:nth-child(2){
+        @apply bg-warning;
+    }
+    .top-tabs:nth-child(3){
+        @apply bg-success;
+    }
+    .top-tabs:nth-child(4){
+        @apply bg-destructive;
+    }
+    .large-text{
+        @apply font-medium font-satoshi text-5xl;
+    }
+    .add-line-height{
+        @apply leading-13;
+    }
+
+
 }
