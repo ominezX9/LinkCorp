@@ -11,6 +11,11 @@ module.exports = {
   		}
   	},
   	extend: {
+		lineHeight:{
+			'12' : '3rem',
+			'13' : '3.5rem',
+			'14' : '4rem',
+		},
   		colors: {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
@@ -28,6 +33,10 @@ module.exports = {
 			success: {
 				DEFAULT: 'hsl(var(--success))',
 				foreground: 'hsl(var(--success-foreground))'
+			},
+			neutral: {
+				DEFAULT: 'hsl(var(--neutral))',
+				foreground: 'hsl(var(--neutral-foreground))'
 			},
 			warning: {
 				DEFAULT: 'hsl(var(--warning))',
