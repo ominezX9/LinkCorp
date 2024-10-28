@@ -134,7 +134,7 @@
         @apply font-medium font-satoshi text-5xl;
     }
     .add-line-height{
-        @apply leading-13;
+        @apply leading-14;
     }
 
 

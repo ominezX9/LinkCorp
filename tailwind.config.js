@@ -15,6 +15,11 @@ module.exports = {
 			'12' : '3rem',
 			'13' : '3.5rem',
 			'14' : '4rem',
+			'15' : '4.5rem',
+            '16' : '5rem',
+            '17' : '5.5rem',
+            '18' : '6rem',
+            '19' : '6.5rem',
 		},
   		colors: {
   			border: 'hsl(var(--border))',
